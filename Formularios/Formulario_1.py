@@ -8,6 +8,7 @@ class MainApp(QMainWindow):
         self.setWindowTitle("Nivel 1")
         self.setFixedSize(500,500)
         self.setStyleSheet("background-color: black;")
+        self.initUI()
 if __name__ == '__main__': 
     app=QApplication([])   #Inicia la aplicación
     window = MainApp() 
